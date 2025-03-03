@@ -1,0 +1,23 @@
+//Aryan Bisht
+//RA2311003011435
+import java.util.*;
+
+public class one {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a string : ");
+        String s = scanner.nextLine();
+        mirror(s);
+    }
+
+    static void mirror(String a) {
+
+        if (a.length() == 0) {
+            return;
+        }
+        for (int i = a.length() - 1; i >= 0; i--) {
+            System.out.print(a.charAt(i));
+        }
+    }
+}
