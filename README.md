@@ -1,2 +1,2 @@
 ## Java programs 
-- Bunch of weekly programs done in my University
+- Bunch of weekly programs done in my University.
